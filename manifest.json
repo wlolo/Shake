@@ -1,7 +1,7 @@
 {
-    "name": "17186.cn签到",
+    "name": "山东联通、移动摇一摇",
     "version": "1.0",
-    "description": "联通签到与摇一摇",
+    "description": "山东联通、移动摇一摇",
     "content_security_policy": "script-src 'self'; object-src 'self'",
     "icons": {
         "16": "images/icon16.png",
@@ -14,11 +14,10 @@
             "19": "images/icon19.png",
             "38": "images/icon38.png"
         },
-        "default_title": "山东联通，一键「签到」、「摇一摇」",
+        "default_title": "山东联通、移动摇一摇",
         "default_popup": "qiandao.html"
     },
    "permissions": [ 
-        //"clipboardWrite",
         "cookies", 
         "tabs",
         "cookies",
