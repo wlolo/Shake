@@ -133,7 +133,7 @@ $(function(){
 							$.post('http://shake.sd.chinamobile.com/shake',
 								{method:'draw',r:new Date().getTime()},function(json){
 								if(json && json.message =='ok'){
-									printMsg('摇一摇', json.message);
+									printMsg('摇一摇', json.result.winName||'未中奖');
 									timeoutID = setTimeout(shake,500);
 								}else{
 									printMsg('摇一摇', '今天机会用完了', true);
