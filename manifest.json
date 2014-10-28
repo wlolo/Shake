@@ -1,0 +1,28 @@
+{
+    "name": "17186.cn签到",
+    "version": "1.0",
+    "description": "联通签到与摇一摇",
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
+        "default_title": "山东联通，一键「签到」、「摇一摇」",
+        "default_popup": "qiandao.html"
+    },
+   "permissions": [ 
+        //"clipboardWrite",
+        "cookies", 
+        "tabs",
+        "cookies",
+        "*://*.17186.cn/*",
+        "*://*.chinamobile.com/"
+    ]
+}

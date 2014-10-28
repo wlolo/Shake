@@ -1,0 +1,15 @@
+body {width: 400px;height: 400px;}
+.button-success,.button-error,.button-warning,.button-secondary {color: white;border-radius: 4px;text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);}
+.button-success {background: rgb(28, 184, 65);}
+.button-error {background: rgb(202, 60, 60);}
+.button-warning {background: rgb(223, 117, 20);}
+.button-secondary {background: rgb(66, 184, 221);}
+.hide {display: none;}
+
+#wrap {float: right;display: block;bottom: 0px;right: 1px!important;right: 5px;position: fixed;text-align: center;}
+.gray {color:#AAAAAA;}
+.greeen {color:#2ECC40;}
+.red {color:#FF4136;}
+a{text-decoration:none;}
+
+#dynamicPwd {float: right;margin-right: 50px;line-height: 2em;}
